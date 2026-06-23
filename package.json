@@ -1,0 +1,22 @@
+{
+  "name": "promover-bot",
+  "version": "1.0.0",
+  "description": "Discord bot para promoção de membros no grupo Roblox",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.26.4",
+    "dotenv": "^17.4.2",
+    "pg": "^8.13.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/adm-zip": "^0.5.8",
+    "adm-zip": "^0.5.17",
+    "esbuild": "^0.28.1"
+  }
+}
